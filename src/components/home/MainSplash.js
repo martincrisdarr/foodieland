@@ -29,7 +29,7 @@ function MainSplash() {
                                 <p className='inter font-medium text-[#00000099] text-sm '>15 March 2022</p>
                             </div>
                         </div>
-                        <div className='flex items-center lg:gap-4 bg-black text-white p-4 rounded-xl inter font-semibold text-sm lg:text-md'>
+                        <div className='flex items-center lg:gap-4 bg-black text-white p-4 rounded-xl inter font-semibold text-sm lg:text-md hover:bg-zinc-900 cursor-pointer'>
                             <p>View Recipes</p>
                             <BsFillPlayCircleFill  />      
                         </div>

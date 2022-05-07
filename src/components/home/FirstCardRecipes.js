@@ -22,8 +22,8 @@ function FirstCardRecipes() {
                         </div>
                         
                     </div>
-                    <div className='bg-white absolute rounded-[50%] mt-4 ml-4 p-2 '>
-                        <BsFillHeartFill className=' text-[#DBE2E5] text-2xl' />
+                    <div className='bg-white flex items-center justify-center cursor-pointer absolute rounded-[50%] mt-4 ml-4 p-2 '>
+                        <BsFillHeartFill className='text-[#DBE2E5] text-xl' />
                     </div>
                 </div>
             )
