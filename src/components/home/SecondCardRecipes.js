@@ -4,7 +4,7 @@ import {ImSpoonKnife} from 'react-icons/im'
 function SecondCardRecipes(props) {
   return (
     <>
-         <div  className='p-4 w-[250px] rounded-3xl mx-auto grid shadow-md '>
+         <div  className='p-4 rounded-3xl mx-auto grid shadow-md '>
             <img src={props.img} className='rounded-3xl  object-cover w-full'/>
             <h1 className='inter font-semibold text-lg mt-4'>{props.title} </h1>
             <div className='flex gap-4 mt-4 inter mb-4 '>
