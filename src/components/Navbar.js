@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {FaFacebookF, FaTwitter, FaInstagram} from 'react-icons/fa'
 import {FcMenu} from 'react-icons/fc'
 import { ImCross } from 'react-icons/im'
+import {Link} from 'react-router-dom'
 function Navbar() {
     const [menu, setMenu] = useState(false)
     const menuClick = () =>{
@@ -12,11 +13,11 @@ function Navbar() {
         <div className='w-full z-40 flex justify-between bg-white items-center px-16 fixed h-[110px] border-b border-slate-200'>
             <h1 className='lobster text-3xl'>Foodieland<span className='text-[#FF7426] '>.</span></h1>
             <ul className='hidden lg:flex gap-10 inter font-medium'>
-                <li>Home</li>
-                <li>Recipes</li>
-                <li>Blog</li>
-                <li>Contact</li>
-                <li>About us</li>
+                <Link to='/'><li>Home</li></Link>
+                <Link to='/recipes'><li>Recipes</li></Link>
+                <Link to='/blog'><li>Blog</li></Link>
+                <Link to='/guide'><li>Guide</li></Link>
+                <Link to='/contact'><li>Contact</li></Link>
             </ul>
             <div className='hidden lg:flex gap-10 text-xl'>
                 <FaFacebookF className='cursor-pointer' />
@@ -27,11 +28,11 @@ function Navbar() {
         </div>
             <div className={!menu ? 'hidden' : 'z-50 absolute w-full h-screen  flex items-center justify-center  bg-black'}>
                 <ul className='lobster text-6xl flex flex-col gap-12 text-white text-center'>
-                    <li>Home</li>
-                    <li>Recipes</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                    <li>About us</li>
+                    <Link to='/'><li>Home</li></Link>
+                    <Link to='/recipes'><li>Recipes</li></Link>
+                    <Link to='/blog'><li>Blog</li></Link>
+                    <Link to='/guide'><li>Guide</li></Link>
+                    <Link to='/contact'><li>Contact</li></Link>
                 </ul>
                 <ImCross onClick={menuClick} className='text-white absolute top-12 right-16 text-3xl cursor-pointer'/>
             </div>
