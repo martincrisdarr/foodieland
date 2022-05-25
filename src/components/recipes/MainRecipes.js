@@ -8,34 +8,34 @@ import {FiShare} from 'react-icons/fi'
 function MainRecipes() {
   return (
     <>
-        <div className='p-16 pt-36 inter w-full'>
+        <div className='px-6 py-16 lg:px-16 pt-36 inter w-full'>
             {/* TITLE */}
             <div className=' flex justify-between items-center'>
-                <div className=''>
-                    <h1 className='text-5xl font-semibold'>Health Japanese Fried Rice</h1>
-                    <div className='mt-12 flex'>
-                        <div className='flex gap-4 w-56 items-center'>
+                <div className='flex flex-col'>
+                    <h1 className='text-3xl lg:text-5xl font-semibold'>Health Japanese Fried Rice</h1>
+                    <div className='mt-12 flex flex-wrap gap-8 lg-:gap-0'>
+                        <div className='flex gap-4 w-40 lg:w-52 items-center'>
                             <img src={footerSplashName} />
                             <div className='w-32 '>
                                 <p className='inter font-semibold cursor-pointer'>Jonh Smith</p>
                                 <p className='inter font-medium text-[#00000099] text-sm '>15 March 2022</p>
                             </div>
                         </div>
-                        <div className='w-52 flex justify-center items-center border-r-2 border-l-2 border-slate-200 gap-4'>
+                        <div className='w-40 lg:w-52  flex justify-center items-center border-r-2 border-l-2  border-slate-200 gap-4'>
                             <BsClockFill size='1.4rem'/>
                             <div>
                                 <p className='font-semibold'>PREP TIME</p>
                                 <p className='text-[#00000099] text-sm'>15 Minutes</p>
                             </div>
                         </div>
-                        <div className='w-52 flex justify-center items-center border-r-2  border-slate-200 gap-4'>
+                        <div className='w-40  lg:w-52  flex justify-center items-center border-r-2  border-slate-200 gap-4'>
                             <BsClockFill size='1.4rem'/>
                             <div>
                                 <p className='font-semibold'>PREP TIME</p>
                                 <p className='text-[#00000099] text-sm'>15 Minutes</p>
                             </div>
                         </div>
-                        <div className='flex w-48 justify-center items-center gap-4'><ImSpoonKnife size='1.4rem'/><p>Chicken</p></div>
+                        <div className='flex w-40 lg:w-52 justify-center items-center gap-4'><ImSpoonKnife size='1.4rem'/><p>Chicken</p></div>
                         
                     </div>
                 </div>
@@ -51,9 +51,9 @@ function MainRecipes() {
                 </div>
             </div>
             {/* IMAGE */}
-            <div className='flex mt-24 w-full h-full gap-8'>
-                <img src={mainRecipe} alt="recipe" className='rounded-3xl w-[70%] h-[500px] object-cover h-full'/>
-                <div className='bg-[#E7FAFE] w-[30%] p-8   rounded-3xl h-[500px] flex flex-col justify-between '>
+            <div className='flex flex-col lg:flex-row mt-24 w-full h-full gap-8'>
+                <img src={mainRecipe} alt="recipe" className='rounded-3xl w-full lg:w-[70%] h-[500px] object-cover h-full'/>
+                <div className='bg-[#E7FAFE] w-full lg:w-[30%] p-8   rounded-3xl h-[500px] flex flex-col justify-between '>
                     <div className='flex flex-col '>
                         <h1 className='font-semibold text-xl'>Nutrition Information</h1>
                         <div className='flex justify-between py-4 border-b-2 border-slate-200'>

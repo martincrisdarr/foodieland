@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {BsClockFill, BsFillHeartFill} from 'react-icons/bs'
 import {ImSpoonKnife} from 'react-icons/im'
 function FirstCardRecipes(props) {
+    const [liked, setLiked] = useState (true)
+    const likedClick = () =>{
+        setLiked(!liked)
+    }
   return (
     <>
          <div  className='p-4 rounded-3xl mx-auto grid shadow-md lightblueBackgrounds'>
@@ -18,8 +22,9 @@ function FirstCardRecipes(props) {
                 </div>
                         
             </div>
-            <div className='bg-white flex items-center justify-center cursor-pointer absolute rounded-[50%] mt-4 ml-4 p-2 '>
-                <BsFillHeartFill className='text-[#DBE2E5] text-xl' />
+            <div className='bg-white flex items-center justify-center cursor-pointer absolute rounded-[50%] mt-4 ml-4 p-2 '
+            onClick={likedClick}>
+                <BsFillHeartFill className={liked ? 'text-[#DBE2E5] text-xl' : 'text-[#FF6363] text-xl'}  />
             </div>
         </div>
     </>

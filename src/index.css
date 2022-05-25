@@ -10,6 +10,13 @@
 .inter{
     font-family: 'Inter', sans-serif;
 }
+.interItalic{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+}
+.guideItalicTextBackground{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+}
 .lobster{
     font-family: 'Lobster', cursive;
 }
