@@ -4,6 +4,7 @@ import hotRecipesLeft from '../../assets/images/homePage/splashMainPage/hotRecip
 import footerSplashName from '../../assets/images/homePage/splashMainPage/footerSplashName.png'
 import {BsClockFill, BsFillPlayCircleFill} from 'react-icons/bs'
 import {GiKnifeFork} from 'react-icons/gi'
+import {Link} from 'react-router-dom'
 function MainSplash() {
   return (
     <>
@@ -30,7 +31,7 @@ function MainSplash() {
                             </div>
                         </div>
                         <div className='flex items-center lg:gap-4 bg-black text-white p-4 rounded-xl inter font-semibold text-sm lg:text-md hover:bg-zinc-900 cursor-pointer'>
-                            <p>View Recipes</p>
+                            <Link to='/recipes'><p>View Recipes</p></Link>
                             <BsFillPlayCircleFill  />      
                         </div>
                     </div>

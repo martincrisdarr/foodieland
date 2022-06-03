@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import contactChef from '../../assets/images/contact/contactChef.png'
+import SuccessAlert from '../SuccessAlert/SuccessAlert'
 function Contact() {
   const [datos, setDatos] = useState ({
     name : '',
@@ -8,19 +9,20 @@ function Contact() {
     enquiry : '',
     textarea : ''
   })
+  const [success, setSuccess] = useState(true)
   const handleChange = (e) =>{
     setDatos ({...datos,
       [e.target.name] : e.target.value
       })
-    console.log(datos)
   }
   const handleSubmit = (e) =>{
     e.preventDefault()
     e.target.reset()
+    setSuccess(false)
   }
   return (
     <>
-        <div className='flex flex-col items-center justify-center pt-40 inter w-full px-6 md:px-16'>
+        <div className='flex flex-col items-center justify-center pt-40 mb-16 inter w-full px-6 md:px-16'>
             <h1 className='text-5xl font-semibold'>Contact us</h1>
             <div className='flex flex-col md:flex-row w-full h-full md:h-[450px] mt-16 gap-24 md:gap-8'>
               {/* CHEF IMAGE */}
@@ -33,7 +35,8 @@ function Contact() {
                     htmlFor="name" 
                     className='flex flex-col gap-2 text-[#00000099]  font-semibold w-full md:w-[40%] '>NAME
                     <input 
-                    type="text" 
+                    type="text"
+                    required 
                     autoFocus
                     name='name'
                     placeholder='Enter your name...'
@@ -45,7 +48,8 @@ function Contact() {
                     className='flex flex-col gap-2 text-[#00000099] font-semibold w-full md:w-[40%]'>EMAIL ADDRESS
                     <input 
                     type="email" 
-                    name='email' 
+                    name='email'
+                    required 
                     placeholder='Your email address....'
                     className=' w-full py-4 pl-6 border-slate-200 border-2 rounded-2xl outline-none ' 
                     onChange={handleChange}/></label>
@@ -55,7 +59,8 @@ function Contact() {
                     className='flex flex-col gap-2 text-[#00000099] font-semibold w-full md:w-[40%]'>SUBJECT
                     <input 
                     type="text" 
-                    name='subject' 
+                    name='subject'
+                    required 
                     placeholder='Enter subject....'
                     className=' w-full py-4 pl-6 border-slate-200 border-2 rounded-2xl outline-none ' 
                     onChange={handleChange}/></label>
@@ -78,6 +83,7 @@ function Contact() {
                     className='flex flex-col gap-2 text-[#00000099] font-semibold w-full'>MESSAGES
                     <textarea 
                     name="textarea" 
+                    required
                     id="" 
                     cols="30" 
                     rows="10" 
@@ -92,6 +98,10 @@ function Contact() {
                 </form>
             </div>
         </div>
+        <SuccessAlert 
+          btnFunction={success}
+          successFunction={setSuccess}
+        /> 
     </>
   )
 }
