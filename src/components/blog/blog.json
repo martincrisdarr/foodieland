@@ -1,50 +1,47 @@
 [
-    {
-        "title" : "Crochet Projects for Noodle Lovers",
-        "img" : "images/blog/crochet.png",
-        "id" : 1,
-        "description" : "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-        "personImg" : "images/blog/people/wade.png",
-        "personName" : "Wade Warren",
-        "date" : "12 November 2021"
-    },
-    {
-        "title" : "10 Vegetarian Recipes To Eat This Month",
-        "img" : "images/blog/vegetarian.png",
-        "id" : 2,
-        "description" : "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-        "personImg" : "images/blog/people/robert.png",
-        "personName" : "Robert Fox",
-        "date" : "12 November 2021"
-    },
-    {
-        "title" : "Full Guide to Becoming a Professional Chef",
-        "img" : "images/blog/professional.png",
-        "id" : 3,
-        "description" : "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-        "personImg" : "images/blog/people/dianne.png",
-        "personName" : "Dianne Russell",
-        "date" : "12 November 2021"
-    },
-    {
-        "title" : "Plantain and Pinto Stew with Aji Verde",
-        "img" : "images/blog/plantain.png",
-        "id" : 4,
-        "description" : "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-        "personImg" : "images/blog/people/courtney.png",
-        "personName" : "Courtney Henry",
-        "date" : "12 November 2021"
-    },
-    {
-        "title" : "We’re Hiring a Communications Assistant!",
-        "img" : "images/blog/hiring.png",
-        "id" : 5,
-        "description" : "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-        "personImg" : "images/blog/people/albert.png",
-        "personName" : "Albert Flores",
-        "date" : "12 November 2021"
-    }
+  {
+    "title": "Crochet Projects for Noodle Lovers",
+    "img": "images/blog/crochet.png",
+    "id": 1,
+    "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+    "personImg": "images/blog/people/wade.png",
+    "personName": "Wade Warren",
+    "date": "12 November 2021"
+  },
+  {
+    "title": "10 Vegetarian Recipes To Eat This Month",
+    "img": "images/blog/vegetarian.png",
+    "id": 2,
+    "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+    "personImg": "images/blog/people/robert.png",
+    "personName": "Robert Fox",
+    "date": "12 November 2021"
+  },
+  {
+    "title": "Full Guide to Becoming a Professional Chef",
+    "img": "images/blog/professional.png",
+    "id": 3,
+    "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+    "personImg": "images/blog/people/dianne.png",
+    "personName": "Dianne Russell",
+    "date": "12 November 2021"
+  },
+  {
+    "title": "Plantain and Pinto Stew with Aji Verde",
+    "img": "images/blog/plantain.png",
+    "id": 4,
+    "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+    "personImg": "images/blog/people/courtney.png",
+    "personName": "Courtney Henry",
+    "date": "12 November 2021"
+  },
+  {
+    "title": "We’re Hiring a Communications Assistant!",
+    "img": "images/blog/hiring.png",
+    "id": 5,
+    "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
+    "personImg": "images/blog/people/albert.png",
+    "personName": "Albert Flores",
+    "date": "12 November 2021"
+  }
 ]
-    
-
-    
