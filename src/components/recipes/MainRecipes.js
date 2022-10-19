@@ -66,9 +66,9 @@ function MainRecipes({ selected }) {
           <img
             src={selected.image}
             alt={selected.name}
-            className="rounded-3xl w-full lg:w-[70%] h-[500px] object-cover"
+            className="rounded-3xl w-full lg:w-[70%] h-[500px] object-cover animate__fadeInLeft animate__animated"
           />
-          <div className="bg-[#E7FAFE] w-full lg:w-[30%] p-8   rounded-3xl h-[500px] flex flex-col justify-between ">
+          <div className="bg-[#E7FAFE] w-full lg:w-[30%] p-8  animate__fadeInRight animate__animated rounded-3xl h-[500px] flex flex-col justify-between ">
             <div className="flex flex-col ">
               <h1 className="font-semibold text-xl">Nutrition Information</h1>
               <div className="flex justify-between py-4 border-b-2 border-slate-200">

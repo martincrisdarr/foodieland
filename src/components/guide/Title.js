@@ -4,7 +4,7 @@ import chefGuide from "../../assets/images/guides/chefGuide.png";
 function Title() {
   return (
     <>
-      <div className="pt-32 flex flex-col justify-center items-center inter">
+      <div className="pt-32 flex flex-col justify-center items-center inter animate__fadeIn animate__animated">
         <h1 className="font-semibold text-4xl md:text-5xl mt-12 text-center px-2">
           Full Guide to Becoming a Professional Chef
         </h1>

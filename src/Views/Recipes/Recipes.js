@@ -35,7 +35,7 @@ function Recipes() {
         <input
           type="text"
           placeholder="Find a recipe"
-          className="py-4 px-6 w-full border-2 border-gray-500 rounded-xl outline-none placeholder-gray-900 "
+          className="py-4 px-6 w-full border border-gray-300 rounded-xl outline-none placeholder-gray-500 inter "
           onChange={handleChange}
         />
         <button type="submit" className="absolute right-16 md:right-36 ">

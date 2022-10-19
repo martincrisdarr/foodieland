@@ -20,7 +20,7 @@ function Contact() {
   };
   return (
     <>
-      <div className="flex flex-col items-center justify-center pt-40 mb-16 inter w-full px-6 md:px-16">
+      <div className="flex flex-col items-center justify-center pt-40 mb-16 inter w-full px-6 md:px-16 animate__fadeIn animate__animated">
         <h1 className="text-5xl font-semibold">Contact us</h1>
         <div className="flex flex-col md:flex-row w-full h-full md:h-[450px] mt-16 gap-24 md:gap-8">
           {/* CHEF IMAGE */}

@@ -9,7 +9,7 @@ import InstagramCards from "./InstagramCards";
 function Instagram() {
   return (
     <>
-      <div className="lightblueBackgrounds mx-auto px-12 md:py-16 py-16 flex flex-col mt-16 w-full flex flex-col items-center gap-16 ">
+      <div className="lightblueBackgrounds mx-auto px-12 md:py-16 py-16 flex flex-col mt-16 w-full items-center gap-16 ">
         {/* TEXT */}
         <div className="text-center inter w-full flex flex-col gap-4">
           <h1 className="text-4xl font-semibold">

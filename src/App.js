@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./Views/Home/Home";
 import Footer from "./components/Footer";
 import Recipes from "./Views/Recipes/Recipes";
+import Blogs from "./Views/Blog/Blogs";
 import Blog from "./Views/Blog/Blog";
 import ScrollToTop from "./utils/ScrollToTop";
 import Guide from "./Views/Guide/Guide";
@@ -17,7 +18,8 @@ function App() {
       <ScrollToTop>
         <Routes>
           <Route path="/recipes" element={<Recipes />}></Route>
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs/:id" element={<Blog />}></Route>
           <Route path="/guide" element={<Guide />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route

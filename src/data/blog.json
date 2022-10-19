@@ -1,46 +1,46 @@
 [
   {
     "title": "Crochet Projects for Noodle Lovers",
-    "img": "images/blog/crochet.png",
+    "img": "https://i.ibb.co/yBGqWny/crochet.png",
     "id": 1,
     "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-    "personImg": "images/blog/people/wade.png",
+    "personImg": "https://i.ibb.co/wzYqJyH/wade.png",
     "personName": "Wade Warren",
     "date": "12 November 2021"
   },
   {
     "title": "10 Vegetarian Recipes To Eat This Month",
-    "img": "images/blog/vegetarian.png",
+    "img": "https://i.ibb.co/S608Xkj/vegetarian.png",
     "id": 2,
     "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-    "personImg": "images/blog/people/robert.png",
+    "personImg": "https://i.ibb.co/sszzpf9/robert.png",
     "personName": "Robert Fox",
     "date": "12 November 2021"
   },
   {
     "title": "Full Guide to Becoming a Professional Chef",
-    "img": "images/blog/professional.png",
+    "img": "https://i.ibb.co/n334PCN/professional.png",
     "id": 3,
     "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-    "personImg": "images/blog/people/dianne.png",
+    "personImg": "https://i.ibb.co/QMq56wn/dianne.png",
     "personName": "Dianne Russell",
     "date": "12 November 2021"
   },
   {
     "title": "Plantain and Pinto Stew with Aji Verde",
-    "img": "images/blog/plantain.png",
+    "img": "https://i.ibb.co/6WP38sB/plantain.png",
     "id": 4,
     "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-    "personImg": "images/blog/people/courtney.png",
+    "personImg": "https://i.ibb.co/vH559T3/courtney.png",
     "personName": "Courtney Henry",
     "date": "12 November 2021"
   },
   {
     "title": "We’re Hiring a Communications Assistant!",
-    "img": "images/blog/hiring.png",
+    "img": "https://i.ibb.co/Rz8VspK/hiring.png",
     "id": 5,
     "description": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim",
-    "personImg": "images/blog/people/albert.png",
+    "personImg": "https://i.ibb.co/Chq1wQG/albert.png",
     "personName": "Albert Flores",
     "date": "12 November 2021"
   }

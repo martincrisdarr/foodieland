@@ -19,7 +19,7 @@ function Questions() {
               suscipit.
             </p>
           </div>
-          <div className="w-[10%] flex flex-col items-center gap-8 hidden md:flex ">
+          <div className="w-[10%]  flex-col items-center gap-8 hidden md:flex ">
             <p className="font-semibold text-sm">SHARE THIS ON:</p>
             <FaFacebookF size="1.5rem" className="cursor-pointer" />
             <FaTwitter size="1.5rem" className="cursor-pointer" />

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function MainSplash() {
   return (
     <>
-      <div className=" w-full h-screen px-4 lg:p-0 flex justify-between items-center gap-24">
+      <div className=" w-full h-screen px-4 lg:p-0 flex justify-between items-center gap-24 animate__animated animate__fadeIn">
         {/* LEFT LIGHTBLUE BAR */}
         <div className="hidden lg:flex w-12 h-[70%] rounded-br-3xl rounded-tr-3xl mt-24 bg-[#E7FAFE] "></div>
         {/* SPLASH CONTAINER */}

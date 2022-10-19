@@ -4,7 +4,7 @@ function RecipeCard({ recipe }) {
   return (
     <Link to={`/recipe/${recipe.name.toLowerCase()}`}>
       <div
-        className={`w-[300px] h-[300px] flex flex-col justify-between overflow-hidden text-xl font-semibold meat py-4 inter px-6 rounded-xl ${recipe.category}`}
+        className={`w-[300px] h-[300px] animate__animated animate__fadeInUp flex flex-col justify-between overflow-hidden text-xl font-semibold meat py-4 inter px-6 rounded-xl ${recipe.category}`}
       >
         <h1>{recipe.name}</h1>
         <img
